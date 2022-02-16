@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2b976fb9d0.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="/pictures/main_logo.jpg" type="image/x-icon">
+    <title>נדב שניאור רואה חשבון | העלאת קבצים</title>
+    <link rel="stylesheet" type="text/css" href="../navbar.css">
+</head>
+<style>
+:root {
+  direction: rtl;
+  font-size: 22px;
+  font-family: 'Assistant',Arial,sans-serif;
+  box-sizing: border-box;
+  overflow-y: hidden;
+}
+
+body{
+    position: relative;
+    display: block;
+    text-align: center;
+}
+input {
+    margin: 20px;
+}
+
+.send {
+    width: 150px;
+    font-size: large;
+}
+
+</style>
+<body>
+    <header>
+        <nav></nav>
+    </header>
+    <h2>העלאת קבצים:</h2>
+    <form action="upload_file">
+        <label>שם הקובץ:</label>
+        <input type="text" name="filename"><br>
+        <label for="date">תאריך</label>
+        <input type="date" name="filedate" id=""><br>
+        <label for="">העלאת הקובץ:</label>
+        <input type="file" name="fileup"><br>
+        <input type='button' class="send" value='שלח'>
+        <!-- לא נשלח לשום מקום היות וחסר לנו ידע -->
+    </form>
+</body>
+<script src="appage.js"></script>
+<script src="../components/navbar.js"></script>
+</html>

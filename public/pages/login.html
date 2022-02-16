@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2b976fb9d0.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="/pictures/main_logo.jpg" type="image/x-icon">
+    <title>נדב שניאור רואה חשבון | התחברות</title>
+    <link rel="stylesheet" type="text/css" href="../navbar.css">
+</head>
+<style>
+    .services2::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #84cf69;
+    bottom: -3px;
+    right: 0;
+  }
+  .h2headers a {
+    position: relative;
+  }
+  .h2headers {
+    font-size: 2rem;
+    line-height: 32px;
+    color: black;
+  }
+</style>
+<body>
+    <header>
+        <nav></nav>
+    </header>
+    <h2 class="h2headers"><a class="services2">התחברות למשתמש</a></h2>
+    <div id="login">
+        <form>
+            <br/>
+            <label>
+                 שם משתמש:
+            </label>
+            <input type='text' name='username' />
+          <br/>
+            <label>
+                סיסמה:
+            </label>
+            <input type='password' name='password' />
+            <div id="FailPassword"></div>
+            <br/>
+            <input type='button' value='התחבר' onclick='displayFormContents(this.form);return false;' />
+        </form>
+    </div>
+</body>
+<script src="../components/login.js"></script>
+<script src="../components/navbar.js"></script>
+</html>

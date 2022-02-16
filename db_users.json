@@ -1,0 +1,113 @@
+{
+    "users": [
+      {
+        "username": "eldad15",
+        "password": "12345",
+        "firstname": "אלדד",
+        "lastname": "שניאור",
+        "email": "eldadshneor@gmail.com",
+        "phone": "0547443546",
+        "ID": "309718466",
+        "Company_name": "Google",
+        "Company_Id": "1"
+      },
+      {
+        "username": "Liel123",
+        "password": "khtk123",
+        "firstname": "ליאל",
+        "lastname": "פסמן",
+        "email": "LielPasman@gmail.com",
+        "phone": "0546851623",
+        "ID": "3087692167",
+        "Company_name": "Microsoft",
+        "Company_Id": "2"
+      },
+      {
+        "username": "David1234",
+        "password": "sus0761",
+        "firstname": "דוד",
+        "lastname": "זבונריוב",
+        "email": "Davideze99@gmail.com",
+        "phone": "0546673451",
+        "ID": "2064789192",
+        "Company_name": "Intel",
+        "Company_Id": "3"
+      },
+      {
+        "username": "Galik55",
+        "password": "dk7719",
+        "firstname": "גל",
+        "lastname": "פרפל",
+        "email": "Gal.farfel@gmail.com",
+        "phone": "0548726126",
+        "ID": "2064927681",
+        "Company_name": "Space-X",
+        "Company_Id": "4"
+      }
+  
+    ],
+    "Companys": [
+      {
+        "company_id": "1",
+        "company_name": "Google",
+        "company_manager": "Eldad",
+        "company_Adress": "Hayarkon 167 TLV",
+        "company_fdate": "19/02/1956"
+      },
+      {
+        "company_id": "2",
+        "company_name": "Microsoft",
+        "company_manager": "Liel",
+        "company_Adress": "Herzelia Savion",
+        "company_fdate": "22/02/2000"
+      },
+      {
+        "company_id": "3",
+        "company_name": "Intel",
+        "company_manager": "David",
+        "company_Adress": "Jump Street 22",
+        "company_fdate": "01/01/2001"
+      },
+      {
+        "company_id": "4",
+        "company_name": "Space-X",
+        "company_manager": "Gal",
+        "company_Adress": "Jump Street 21",
+        "company_fdate": "03/05/1968"
+      }
+  
+  
+    ],
+    "Files": [
+      {
+        "Number": "1",
+        "Name": "Bussiness_Report",
+        "Company": "Google",
+        "Date": "19/02/2005",
+        "Classification": "Job Reports"
+      },
+      {
+        "Number": "2",
+        "Name": "Report",
+        "Company": "Microsoft",
+        "Date": "20/01/1999",
+        "Classification": "Job Reports"
+      },
+      {
+        "Number": "3",
+        "Name": "Work_Report",
+        "Company": "Intel",
+        "Date": "16/05/1969",
+        "Classification": "Job Reports"
+      },
+      {
+        "Number": "4",
+        "Name": "Monthly_Report",
+        "Company": "Space-X",
+        "Date": "19/08/2001",
+        "Classification": "Job Reports"
+      }
+  
+    ]
+  }
+  
