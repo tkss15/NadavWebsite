@@ -24,8 +24,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'archiproject1234@gmail.com',
-      pass: 'r64JMsxxvYCywGT'
+      user: 'xxxxxxx',
+      pass: 'yyyyyyyy'
     }
   });
 
